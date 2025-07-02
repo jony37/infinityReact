@@ -1,0 +1,11 @@
+.active {
+  background-color: white;
+  position: fixed;
+  border-bottom: 1px solid #e9ecef;
+}
+.active a {
+  color: #369 !important;
+}
+.active .nav-item:hover a {
+  color: white !important;
+}
