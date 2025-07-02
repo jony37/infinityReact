@@ -23,7 +23,7 @@ const Header = (props) => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              {props.header.map((item) => (
+              {props.header.map((item,) => (
                 <li className="nav-item">
                   <a className="nav-link tm-nav-link current" href="#infinite">
                     {item}

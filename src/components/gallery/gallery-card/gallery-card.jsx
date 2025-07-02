@@ -1,9 +1,9 @@
 
-const GalleryCard = ({galleryCards}) => {
+const GalleryCard = ({galleryCards, index}) => {
   return (
     <div className="d-flex">
       {galleryCards.map((item) => (
-        <a
+        <a 
           href="img/gallery-img-01.jpg"
           class="slick-slide slick-current slick-active"
           tabindex="0"

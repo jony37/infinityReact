@@ -94,7 +94,31 @@ const dataBase = {
   contactUs: {
     img: "https://www.tooplate.com/templates/2117_infinite_loop/img/infinite-loop-03.jpg",
     title: "Contact Us",
-    subtitle: "Proin enim orci, tincidunt quis suscipit in, placerat nec est. Vestibulum posuere faucibus posuere. Quisque aliquam velit eget leo blandit egestas. Nulla id posuere felis, quis tristique nulla."
+    subtitle:
+      "Proin enim orci, tincidunt quis suscipit in, placerat nec est. Vestibulum posuere faucibus posuere. Quisque aliquam velit eget leo blandit egestas. Nulla id posuere felis, quis tristique nulla.",
+    forms: [
+      { type: "text", name: "name", placeholder: "Your Name" },
+      { type: "email", name: "email", placeholder: "Your Email" },
+      { type: "textarea", name: "message", placeholder: "Your Message" },
+    ],
+    icons: [
+      {
+        icon: "far fa-2x fa-comment mr-4",
+        text: "Chat Online",
+      },
+      {
+        icon: "far fa-2x fa-envelope mr-4",
+        text: "Chat Online",
+      },
+      {
+        icon: "fas fa-2x fa-map-marker-alt mr-4",
+        text: "Chat Online",
+      },
+      {
+        icon: "fas fa-2x fa-phone-square mr-4",
+        text: "Chat Online",
+      },
+    ],
   },
 };
 
@@ -112,7 +136,7 @@ function App() {
         />
         <Testimonials testimonials={dataBase.testimonials} />
         <Gallery gallery={dataBase.gallery} />
-        <ContactUs  contactUs = {dataBase.contactUs}/>
+        <ContactUs contactUs={dataBase.contactUs} />
       </main>
     </>
   );

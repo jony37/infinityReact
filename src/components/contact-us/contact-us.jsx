@@ -1,5 +1,8 @@
+import ContactUsCards from "./contact-us-cards/contact-us-cards";
+
 const ContactUs = ({ contactUs }) => {
-  const { img, title, subtitle } = contactUs;
+  const { img, title, subtitle, forms, icons } = contactUs;
+  
   return (
     <div
     className="text-center"
@@ -18,6 +21,10 @@ const ContactUs = ({ contactUs }) => {
     >
       <h2 className="tm-section-title mb-4">{title}</h2>
       <p className="mb-5" style={{width:"1000px", marginLeft: "230px"}}>{subtitle}</p>
+
+      <div className="container">
+        <ContactUsCards forms = {forms} icons = {icons}/>
+      </div>
     </div>
   );
 };
