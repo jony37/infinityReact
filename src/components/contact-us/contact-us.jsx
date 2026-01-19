@@ -10,6 +10,7 @@ const ContactUs = ({ contactUs }) => {
         color: "white",
         backgroundColor: "#001828",
         backgroundImage: `url(${img})`,
+        
         backgroundPosition: "center",
         minHeight: "980px",
         position: "relative",
