@@ -5,7 +5,6 @@ import WhatWeDo from "../what-we-do/what-we-do";
 import Testimonials from "../testimonials/testimonials";
 import Gallery from "../gallery/gallery";
 import ContactUs from "../contact-us/contact-us";
-
 const dataBase = {
   header: [
     "Infinite Loop",
@@ -104,11 +103,11 @@ const dataBase = {
     icons: [
       {
         icon: "far fa-2x fa-comment mr-4",
-        text: "Chat Online",
+        text: "Chat Online kir",
       },
       {
         icon: "far fa-2x fa-envelope mr-4",
-        text: "Chat Online",
+        text: "Chat Online nma gap",
       },
       {
         icon: "fas fa-2x fa-map-marker-alt mr-4",
