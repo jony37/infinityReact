@@ -13,6 +13,8 @@ const ContactUs = ({ contactUs }) => {
         
         backgroundPosition: "center",
         minHeight: "980px",
+
+        
         position: "relative",
         paddingBottom: "50px",
         paddingTop: "100px",
